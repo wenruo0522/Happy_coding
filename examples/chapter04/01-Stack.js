@@ -1,4 +1,6 @@
 
+// const StackArray = require('../')
+
 const { StackArray } = PacketDataStructuresAlgorithms
 
 const stack = new StackArray()
