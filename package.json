@@ -15,7 +15,6 @@
     },
     "homepage": "https://github.com/wenruo0522/Happy_coding#readme",
     "scripts": {
-
         "webpack:build": "webpack --env build",
         "webpack:server": "webpack --env server",
         "serve": "http-server",
