@@ -6,7 +6,12 @@
 
 - 安装必须的依赖
 
-  - 使用 `terser-webpack-plugin` 来压缩美化代码
+- 打包配置与其他配置
+
+  - `webpack.config.js` 构建最终的 `min.js` 产物
+  - `babel.config.json` 配置 `babel` 
+  - `mocha chai mochawesome` 生成对应的 `js` 单元测试报告
+  - `ts` 相关算法版本和测试版本后续更新
 
 ## 目录结构
 

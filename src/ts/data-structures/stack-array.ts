@@ -24,7 +24,7 @@ export default class StackArray<T> {
     }
 
     size() {
-        this.items.length
+        return this.items.length
     }
 
     clear() {
