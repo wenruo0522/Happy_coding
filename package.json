@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Learning JavaScript Data Structures and Algorithms ",
     "main": "index.js",
+    "type": "module",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wenruo0522/Happy_coding.git"
@@ -18,7 +19,7 @@
         "webpack:build": "webpack --env build",
         "webpack:server": "webpack --env server",
         "serve": "http-server",
-        "test:js": "mocha --compilers "
+        "test:js": "mocha ./test/js --recursive --reporter mochawesome "
     },
     "devDependencies": {
         "@babel/core": "^7.23.2",
@@ -37,6 +38,5 @@
 
     "dependencies": {
         "http-server": "^14.1.1"
-
     }
 }

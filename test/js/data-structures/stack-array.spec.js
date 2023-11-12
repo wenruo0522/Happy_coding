@@ -1,6 +1,6 @@
 import "mocha"
 import { expect } from "chai"
-import StackArray from "../../../src/js/data-structures/stack-array"
+import StackArray from "../../../src/js/data-structures/stack-array.js"
 
 describe("StackArray", () => {
     let stack
@@ -173,7 +173,7 @@ describe("StackArray", () => {
             }
         }
 
-        expect(stack.toString()).to.equal(0)
+        expect(stack.toString()).to.equal('')
 
         stack.push(new MyObj(1, 2))
         expect(stack.toString()).to.equal('1|2')
