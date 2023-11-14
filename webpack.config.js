@@ -1,9 +1,16 @@
 
-const webpack = require('webpack')
-const path = require('path')
-const TerserWebpackPlugin = require('terser-webpack-plugin')
-const yargs = require('yargs/yargs')
-const { hideBin } = require('yargs/helpers')
+// const webpack = import('webpack')
+import path from 'node:path'
+import { dirname } from "node:path"
+import { fileURLToPath } from "node:url"
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+// const TerserWebpackPlugin = import('terser-webpack-plugin')
+import TerserPlugin from 'terser-webpack-plugin'
+
+import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
 const argv = yargs(hideBin(process.argv)).argv
 const env = argv.env
 
@@ -47,10 +54,10 @@ const config = {
 
     // terser-webpack-plugin 配置项, 美化压缩代码
     optimization: {
-        minimize: true,
-        minimizer: [new TerserWebpackPlugin()]
+        minimize: false,
+        minimizer: [new TerserPlugin()]
     }
 }
 
+export default config
 
-module.exports = config
