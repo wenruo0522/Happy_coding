@@ -10,3 +10,4 @@ export { hanoi, hanoiStack } from './others/hanoi.js'
 export { default as Queue } from "./data-structures/queue.js"
 export { default as Deque } from "./data-structures/deque.js"
 export { hotPotato } from "./others/hot-potato.js"
+export { palindromeChecker } from "./others/palindrome-checker.js"
