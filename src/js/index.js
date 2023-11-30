@@ -9,3 +9,4 @@ export { hanoi, hanoiStack } from './others/hanoi.js'
 // chapter 05
 export { default as Queue } from "./data-structures/queue.js"
 export { default as Deque } from "./data-structures/deque.js"
+export { hotPotato } from "./others/hot-potato.js"
