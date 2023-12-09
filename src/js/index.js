@@ -21,3 +21,5 @@ export { default as LinkedList } from "./data-structures/linked-list.js"
 export { default as DoublyLinkedList } from "./data-structures/doubly-linked-list.js"
 export { default as CircularLinkedList } from "./data-structures/circular-linked-list.js"
 export { default as SortedLinkedList } from "./data-structures/sorted-linked-list.js"
+export { default as StackLinkedList } from "./data-structures/stack-linked-list.js"
+
