@@ -23,3 +23,5 @@ export { default as CircularLinkedList } from "./data-structures/circular-linked
 export { default as SortedLinkedList } from "./data-structures/sorted-linked-list.js"
 export { default as StackLinkedList } from "./data-structures/stack-linked-list.js"
 
+// chapter 07
+export { default as Set } from "./data-structures/set.js"
