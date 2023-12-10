@@ -25,3 +25,6 @@ export { default as StackLinkedList } from "./data-structures/stack-linked-list.
 
 // chapter 07
 export { default as Set } from "./data-structures/set.js"
+
+// chapter 08
+export { default as Dictionary } from "./data-structures/dictionary.js"
