@@ -28,3 +28,6 @@ export { default as Set } from "./data-structures/set.js"
 
 // chapter 08
 export { default as Dictionary } from "./data-structures/dictionary.js"
+export { default as HashTable } from "./data-structures/hash-table.js"
+export { default as HashTableSeparateChaining } from "./data-structures/hash-table-separate-chaining.js"
+export { default as HashTableLinearProbing } from "./data-structures/hash-table-linear-probing.js"
